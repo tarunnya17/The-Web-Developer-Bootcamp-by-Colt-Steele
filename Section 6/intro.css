@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: wavy underline pink;
+    font-weight: 500;
+    font-size: 200%;
+    letter-spacing: 1ex;
+    line-height: 10;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*h2{
+    color: purple;
+    background-color: #99fafa;
+}
+button{
+    color: whitesmoke;
+    background-color: black;
+}
+p{
+    color: blueviolet;
+    font-size: large;
+}*/

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Form</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="first">First Name :</label>
+            <input type="text" name="firstname" id="first" placeholder="John" required>
+            <label for="last">Last Name :</label>
+            <input type="text" name="lastname" id="last" placeholder="Smith" required>
+        </p>
+        <p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="your email" required>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" minlength="5" maxlength="10" required>
+        </p>
+        <p>
+            <label for="budday">Birthday:</label>
+
+            <select name="month" id="month">
+                <option value="" selected>Month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+
+            </select>
+            <select name="day" id="day">
+                <option value="" selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+            <select name="year" id="year">
+                <option value="" selected>Year</option>
+                <option value="1990">1990</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="agree">I agree to the terms and conditions</label>
+            <input type="checkbox" name="agree" id="agree">
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

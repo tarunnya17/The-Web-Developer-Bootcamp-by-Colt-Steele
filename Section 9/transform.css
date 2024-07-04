@@ -1,0 +1,61 @@
+h1 {
+    background-color: rgb(4, 171, 116);
+    border: 5px solid rgb(7, 76, 72);
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+    background-color: rgb(238, 217, 30);
+}
+
+h1:nth-of-type(3n) {
+    background-color: rgb(245, 167, 12);
+}
+
+h1:nth-of-type(4n) {
+    background-color: rgb(255, 85, 0);
+}
+
+section:first-of-type h1:nth-of-type(1) {
+    /*transform-origin: bottom left;*/
+    transform: rotate(45deg);
+}
+
+section:first-of-type h1:nth-of-type(2) {
+    transform: scale(0.7);
+}
+
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(200px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform: translate(-200px, 50px);
+}
+
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2) {
+    transform: skew(10deg, 5deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(3) {
+    transform: rotate(20deg) scale(1.5);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4) {
+    transform: translateX(-500px) rotate(0.5turn) scaleY(2);
+}
+
+section:nth-of-type(2) {
+    transform: scale(0.7);
+}

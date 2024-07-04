@@ -1,0 +1,14 @@
+section {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    /*background-image: url("https://www.internationaltaxreview.com/Media/images/international-tax-review/anjana-haines/october-2020/AdobeStock_301659373_Editorial_Use_Only_Coca-Cola.jpg");
+    background-size: cover;
+    background-position: top;*/
+    background: center/40% url("https://pbs.twimg.com/profile_images/1513352867318579203/j3c1mWEZ_400x400.jpg");
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
