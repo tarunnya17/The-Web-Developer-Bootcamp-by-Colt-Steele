@@ -34,4 +34,18 @@ else {
     console.log("cannot be too short password");
 }
 
+//truthy-falsyness
 
+const userInput = prompt("Enter anything:");
+if (userInput) {
+    console.log("TRUTHY");
+}
+else {
+    console.log("FALSY");
+}
+if (NaN) {
+    console.log("TRUTHY");
+}
+else {
+    console.log("FALSY");
+}
