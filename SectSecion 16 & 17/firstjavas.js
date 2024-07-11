@@ -49,3 +49,7 @@ if (NaN) {
 else {
     console.log("FALSY");
 }
+
+//array push & pop
+movieline = ["tom", "jerry", "uday", "taru", "nut", "boltu"];
+console.log(movieline.shift())
