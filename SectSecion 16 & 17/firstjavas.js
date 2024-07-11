@@ -52,4 +52,7 @@ else {
 
 //array push & pop
 movieline = ["tom", "jerry", "uday", "taru", "nut", "boltu"];
-console.log(movieline.shift())
+movieline.push('eva') //it will add eva at the end of the array
+person = movieline.pop() //it will give eva
+console.log(movieline.shift()) //it prints tom
+movieline.unshift('VIP') //add VIP at the first place
