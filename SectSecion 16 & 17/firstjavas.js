@@ -60,6 +60,11 @@ movieline.unshift('VIP') //add VIP at the first place
 //other methods: concat,includes, indexOf, reverse
 
 //slice and splice:
+movieline = ["tom", "jerry", "uday", "taru", "nut", "boltu"];
+
 movieline.slice(3) //starting at index 3 takes up to the end
 movieline.slice(2, 4) //takes 2nd and 3rd index, excludes 4th
 movieline.slice(-2) //gives the last 2
+
+movieline.splice(5, 1)//starts at 5th index, want to delete 1 item from there, will delete boltu from initial movieline array
+movieline.splice(1, 0, "oggy")//will insert oggy after 1st index
