@@ -56,3 +56,10 @@ movieline.push('eva') //it will add eva at the end of the array
 person = movieline.pop() //it will give eva
 console.log(movieline.shift()) //it prints tom
 movieline.unshift('VIP') //add VIP at the first place
+
+//other methods: concat,includes, indexOf, reverse
+
+//slice and splice:
+movieline.slice(3) //starting at index 3 takes up to the end
+movieline.slice(2, 4) //takes 2nd and 3rd index, excludes 4th
+movieline.slice(-2) //gives the last 2
