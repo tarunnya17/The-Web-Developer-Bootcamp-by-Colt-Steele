@@ -68,3 +68,7 @@ movieline.slice(-2) //gives the last 2
 
 movieline.splice(5, 1)//starts at 5th index, want to delete 1 item from there, will delete boltu from initial movieline array
 movieline.splice(1, 0, "oggy")//will insert oggy after 1st index
+
+//equality testing
+'hi' === 'hi' //gives true
+//['hi', 'bye'] === ['hi', 'bye'] //gives false
