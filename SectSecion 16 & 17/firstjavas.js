@@ -71,4 +71,17 @@ movieline.splice(1, 0, "oggy")//will insert oggy after 1st index
 
 //equality testing
 'hi' === 'hi' //gives true
-//['hi', 'bye'] === ['hi', 'bye'] //gives false
+//['hi', 'bye'] === ['hi', 'bye'] //gives false, because they refer to different memory
+
+let nums = [1, 2, 3]
+let numsCopy = nums
+
+nums.push(4)//now numsCopy also becomes [1, 2, 3, 4]
+
+nums === numsCopy //returns true
+
+//-------------------------------------------------------
+
+//arrays + const
+const num = [1, 2, 3]
+num.push(4)//works even if num is const, because the memory assigned is const, can't reassign
