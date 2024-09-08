@@ -6,3 +6,13 @@ function scubaDive() {
 }
 
 scubaDive();
+
+//defining methods for an object square
+const square = {
+    area: function (side) {
+        return side * side;
+    },
+    perimeter(side) {
+        return side * 4;
+    }
+}
